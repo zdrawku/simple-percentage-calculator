@@ -1,0 +1,14 @@
+<div class="column-layout group">
+  <igx-slider [(ngModel)]="numericValue" [minValue]="0" [maxValue]="5" [step]="1" [primaryTicks]="6" [secondaryTickLabels]="false" [showTicks]="true" [showTicks]="true" class="slider"></igx-slider>
+  <igc-rating [(ngModel)]="numericValue" class="user-input"></igc-rating>
+  <igx-calendar [value]="dateVal" [hasHeader]="true" headerOrientation="horizontal" class="calendar"></igx-calendar>
+  <igx-date-picker [(ngModel)]="dateVal" type="border" mode="dialog" class="date-picker">
+    <label igxLabel>Date</label>
+  </igx-date-picker>
+  <igx-checkbox labelPosition="after" [(ngModel)]="boolVar" class="user-input">
+    Label
+  </igx-checkbox>
+  <igx-switch [(ngModel)]="boolVar" class="user-input">
+    Label
+  </igx-switch>
+</div>
