@@ -1,5 +1,9 @@
 # Percentage calculator
 
+https://zdrawku.github.io/simple-percentage-calculator
+
+Using the Web API from https://github.com/zdrawku/PercentageCalculator
+
 This project was generated with [App Builder Code Gen](https://www.appbuilder.dev/platform).
 
 ## Development server
